@@ -1,4 +1,3 @@
-import { createSignal } from 'solid-js';
 import cvData from './data.json'; // Make sure this is the correct path to your JSON data
 
 // Inline CSS
@@ -70,7 +69,7 @@ const App = () => {
       <header style={styles.header}>
         <h1 style={styles.title}>{cvData.name}</h1>
         <p style={styles.subTitle}>{cvData.role}</p>
-        <p style={styles.subTitle}>{cvData.philosophy}</p>
+        {/* <p style={styles.subTitle}>{cvData.philosophy}</p> */}
       </header>
 
       {/* Summary */}
@@ -113,11 +112,11 @@ const App = () => {
       {/* CONTACT */}
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Contact</h2>
-        <p>Linkedin: <a style={styles.link} href={cvData.contact.linkedin} target="_blank">{cvData.contact.linkedin}</a></p>
-        <p>Github: <a style={styles.link} href={cvData.contact.github} target="_blank">{cvData.contact.github}</a></p>
+        <p>Linkedin: <a style={styles.link} href={cvData.contact.linkedin}  rel="noreferrer" target="_blank">{cvData.contact.linkedin}</a></p>
+        <p>Github: <a style={styles.link} href={cvData.contact.github}  rel="noreferrer" target="_blank">{cvData.contact.github}</a></p>
         <p>Email: <a style={styles.link} href={`mailto:${cvData.contact.email}`}>marius.lucian.olariu@gmail.com</a></p>
-        <p>Location: <a style={styles.link} href={cvData.contact.location} target="_blank">London, NW10 </a></p>
-        <p>Website: <a style={styles.link} href={cvData.contact.website} target="_blank">{cvData.contact.website}</a></p>
+        <p>Location: <a style={styles.link} href={cvData.contact.location}  rel="noreferrer" target="_blank">London, NW10 </a></p>
+        <p>Website: <a style={styles.link} href={cvData.contact.website}  rel="noreferrer" target="_blank">{cvData.contact.website}</a></p>
       </section>
 
 
