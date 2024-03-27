@@ -141,9 +141,11 @@ const App = () => {
        <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Recommendations</h2>
         <ul style={styles.list}>
-          {cvData.education.map((edu) => (
-            <li style={styles.listItem} key={edu.institution}>
-              <strong>{edu.degree}</strong> at {edu.institution}, {edu.year}
+          {cvData.recommendations.map((rec) => (
+            <li style={styles.listItem} key={rec.name}>
+              <h3><a style={styles.link} href={rec.linkedin}>{rec.name}</a> </h3> {rec.jobTitle}
+              <p>{rec.text}</p>
+              <hr></hr>
             </li>
           ))}
         </ul>
@@ -155,7 +157,9 @@ const App = () => {
         <ul style={styles.list}>
           {cvData.education.map((edu) => (
             <li style={styles.listItem} key={edu.institution}>
-              <strong>{edu.degree}</strong> at {edu.institution}, {edu.year}
+              <strong>{edu.degree}</strong> at {edu.name}, {edu.period}
+              <br></br>{edu.location}
+              <hr></hr>
             </li>
           ))}
         </ul>

@@ -11,9 +11,42 @@
   },
   "education": [
     {
-      "degree": "B.Sc. Computer and Software Engineering",
-      "institution": "Polytehnic University, Timisoara, Romania",
-      "year": "2014 - 2018"
+      "name": "University of the West of Scotland",
+      "location": "Paisley, United Kingdom",
+      "period": "2018-2020",
+      "degree": "Mobile Web Development",
+      "website": "https://www.uws.ac.uk/",
+      "logo": "uws_logo.png",
+      "link_to_degree": "",
+      "programme_type": "Master of Science"
+    },
+    {
+      "name": "Polytechnic University Timișoara",
+      "location": "Timișoara, Romania",
+      "period": "2014-2018",
+      "degree": "Computer and Software Engineering",
+      "website": "https://www.upt.ro/Universitatea-Politehnica-Timisoara_en.html",
+      "link_to_degree": "",
+      "logo": "logo_upt.png",
+      "programme_type": "Bachelor of Science"
+    },
+    {
+      "name": "Linköping University",
+      "location": "Linköping, Sweden",
+      "period": "Spring semester 2017",
+      "degree": "Exchange Semester",
+      "website": "https://liu.se/en",
+      "logo": "liu_logo.png",
+      "programme_type": "Erasmus Programme"
+    },
+    {
+      "name": "Radboud University",
+      "location": "Nijmegen, The Netherlands",
+      "period": "Autumn semester 2016",
+      "degree": "Exchange Semester",
+      "website": "https://www.ru.nl/english/",
+      "logo": "radboud_logo.png",
+      "programme_type": "Erasmus Programme"
     }
   ],
   "experience": [
@@ -26,23 +59,22 @@
         "location": "London, United Kingdom",
         "website": "https://www.vodafone.co.uk"
       },
-      "project": 
-        {
-          "name": "vodafone.co.uk",
-          "logoHeight": 80,
-          "role": "Software Engineer",
-          "description": "To be completed as bullet points",
-          "stack": {
-            "me": [
-              "Java",
-              "Spring",
-              "AWS",
-              "JUnit",
-              "Maven",
-              "Git"
-            ]
-          }
+      "project": {
+        "name": "vodafone.co.uk",
+        "logoHeight": 80,
+        "role": "Software Engineer",
+        "description": "To be completed as bullet points",
+        "stack": {
+          "me": [
+            "Java",
+            "Spring",
+            "AWS",
+            "JUnit",
+            "Maven",
+            "Git"
+          ]
         }
+      }
     },
     {
       "company": {
@@ -53,23 +85,22 @@
         "location": "London, United Kingdom",
         "website": "https://www.zuehlke.com/en"
       },
-      "projects": 
-        {
-          "name": "On bench",
-          "logoHeight": 80,
-          "role": "Senior Software Engineer",
-          "description": "Brief period at this consulting company due to a temporary lull in demand for Java Backend Software Engineers (inflation raising and recession was predicted).",
-          "stack": {
-            "me": [
-              "Java",
-              "Spring",
-              "AWS",
-              "JUnit",
-              "Maven",
-              "Git"
-            ]
-          }
+      "projects": {
+        "name": "On bench",
+        "logoHeight": 80,
+        "role": "Senior Software Engineer",
+        "description": "Brief period at this consulting company due to a temporary lull in demand for Java Backend Software Engineers (inflation raising and recession was predicted).",
+        "stack": {
+          "me": [
+            "Java",
+            "Spring",
+            "AWS",
+            "JUnit",
+            "Maven",
+            "Git"
+          ]
         }
+      }
     },
     {
       "company": {
@@ -80,24 +111,23 @@
         "location": "London, United Kingdom",
         "website": "https://www.iqvia.com/"
       },
-      "project": 
-        {
-          "name": "IQVIA",
-          "logoHeight": 80,
-          "role": "Full Stack Software Engineer",
-          "description": "To be completed as bullet points",
-          "stack": {
-            "me": [
-              "Java",
-              "AWS",
-              "JavaScript",
-              "Groovy",
-              "Grails",
-              "Maven",
-              "Git"
-            ]
-          }
+      "project": {
+        "name": "IQVIA",
+        "logoHeight": 80,
+        "role": "Full Stack Software Engineer",
+        "description": "To be completed as bullet points",
+        "stack": {
+          "me": [
+            "Java",
+            "AWS",
+            "JavaScript",
+            "Groovy",
+            "Grails",
+            "Maven",
+            "Git"
+          ]
         }
+      }
     },
     {
       "company": {
@@ -108,22 +138,21 @@
         "location": "Oxford, United Kingdom",
         "website": "https://diffblue.com"
       },
-      "project": 
-        {
-          "name": "Diffblue",
-          "logoHeight": 80,
-          "role": "Software Engineer",
-          "description": "In this role, I am writing software in Java in an Agile environment for Diffblue Cover, a tool powered by AI that automatically generates (unit) tests for Java code. I make a consistent commitment to growth by embracing continuous learning (i.e. each Sprint I study a topic relevant for my work) and by taking new responsibilities (e.g. lead stand-ups and Sprint Retrospectives). Last, but not least, I set up and maintain an online environment where the product can be tried, see diffblue.com/try-cover-browser.",
-          "stack": {
-            "me": [
-              "Java",
-              "Spring",
-              "JUnit",
-              "Maven",
-              "Git"
-            ]
-          }
+      "project": {
+        "name": "Diffblue",
+        "logoHeight": 80,
+        "role": "Software Engineer",
+        "description": "In this role, I am writing software in Java in an Agile environment for Diffblue Cover, a tool powered by AI that automatically generates (unit) tests for Java code. I make a consistent commitment to growth by embracing continuous learning (i.e. each Sprint I study a topic relevant for my work) and by taking new responsibilities (e.g. lead stand-ups and Sprint Retrospectives). Last, but not least, I set up and maintain an online environment where the product can be tried, see diffblue.com/try-cover-browser.",
+        "stack": {
+          "me": [
+            "Java",
+            "Spring",
+            "JUnit",
+            "Maven",
+            "Git"
+          ]
         }
+      }
     },
     {
       "company": {
@@ -134,23 +163,21 @@
         "location": "Glasgow, United Kingdom",
         "website": "https://newverveconsulting.com"
       },
-      "project": 
-        {
-          "name": "Diffblue",
-          "logoHeight": 80,
-          "role": "Junior Fullstack Developer",
-          "description": "Played an important role in the development and launch of a cloud add-on for Jira. The add-on allows you to bring context to Jira tickets by linking them to customer data. I helped through pair-programming sessions one of my colleagues to transition from a Technical Consultant position to a Developer one. Managed my time between writing my MSc dissertation and the position successfully.",
-          "stack": {
-            "me": [
-              "JavaScript",
-              "React",
-              "Node",
-              "Jest",
-              "Git"
-            ]
-          }
+      "project": {
+        "name": "Diffblue",
+        "logoHeight": 80,
+        "role": "Junior Fullstack Developer",
+        "description": "Played an important role in the development and launch of a cloud add-on for Jira. The add-on allows you to bring context to Jira tickets by linking them to customer data. I helped through pair-programming sessions one of my colleagues to transition from a Technical Consultant position to a Developer one. Managed my time between writing my MSc dissertation and the position successfully.",
+        "stack": {
+          "me": [
+            "JavaScript",
+            "React",
+            "Node",
+            "Jest",
+            "Git"
+          ]
         }
-      
+      }
     },
     {
       "company": {
@@ -180,7 +207,57 @@
       ]
     }
   ],
-  "recommendations": [],
+  "recommendations": [
+    {
+      "name": "Uwe Rohloff",
+      "jobTitle": "Vice President Research & Development",
+      "photo": "uwe.jpeg",
+      "linkedin": "https://www.linkedin.com/in/uwe-rohloff-845692/",
+      "text": "Marius is a hard working development senior and always striving to learn and improve - himself as well as others! I had the pleasure being his superior some time ago and was quite happy to see him being always determined to learn more, share knowledge and go the extra mile in achieving great solutions."
+    },
+    {
+      "name": "Joel Allred",
+      "jobTitle": "Software Engineering Manager",
+      "photo": "joel.jpeg",
+      "linkedin": "https://www.linkedin.com/in/joel-allred/",
+      "text": "I have had the pleasure to have Marius on my team. He took ownership of the Katacoda front end for Diffblue Cover and made some excellent contributions to the core test generation Java engine. Marius is eager to learn and continuously looks for process and code quality improvements."
+    },
+    {
+      "name": "Gabriel Boian",
+      "jobTitle": "Software Team Leader",
+      "photo": "gabi.jpeg",
+      "linkedin": "https://www.linkedin.com/in/gabriel-boian-aba85351/",
+      "text": "I had the pleasure to work with Marius for almost a year while he was graduating the university and he was a Junior Developer in the team that I managed. I was impressed by Marius' ability to handle parallel tasks like completing the study workload and picking development in a complex and big framework used inside our product. He managed very well to solve tasks requiring back-end technologies like SQL but also front-end tasks requiring him to master the framework used for the UI development. He proved his capability to handle difficult problems. As a team member or leader, Marius earns my highest recommendation."
+    },
+    {
+      "name": "Nigel Rochford",
+      "jobTitle": "Founder & Managing Director",
+      "photo": "nigel.jpeg",
+      "linkedin": "https://www.linkedin.com/in/nigelrochford/",
+      "text": "Marius was a great asset to New Verve when he worked as a Junior Developer - we were sorry to see him leave. He played a key part in our evolving business strategy by helping our products team design, develop, and launch a Cloud product to a global marketplace for the very first time. This was no mean feat and I was impressed with his autonomy and willingness to adapt and learn. He also built a sold rapport with team mates throughout the journey. Best of luck Marius with the rest of your career!"
+    },
+    {
+      "name": "Darran Gillan",
+      "jobTitle": "Digital Inclusion Development Officer",
+      "photo": "darran.jpeg",
+      "linkedin": "https://www.linkedin.com/in/darran-gillan/",
+      "text": "Marius developed a lone working app for Paisley YMCA youth work staff. This was all built from the ground up and Marius attention to detail and advice to the requirements identified from a mobile phone app was very insightful and helped transform our youth work operations to a paperless system saving our organisation time and money. Throughout this process Marius made all staff feel involved in the design and functionality of the app despite our lack of understanding in some areas his professional attitude and enthusiasm for our organisations aim that was reflected in this lone working app developed by Marius during his time at Paisley YMCA has made our organisation stand out in terms use of digital platforms to improve outcomes for young people within the youth work sector."
+    },
+    {
+      "name": "Alex Quail",
+      "jobTitle": "Software Product Owner",
+      "photo": "alex.jpeg",
+      "linkedin": "https://www.linkedin.com/in/alexquail/",
+      "text": "It has been a pleasure working with Marius during his time at Foundry Health / IQVIA. He is an excellent communicator and hard worker. He helped to enhance our core product during a release cycle, where he implemented improvements towards existing features. He also suggested improvements to the product and our processes over time as he gained more understanding about our business and industry. As a Product Manager, I really appreciate his direct working style and willingness to gain a deep understanding of product/user needs from the perspective of a developer. He makes an effort to understand the 'why' and not only just the 'what'. Overall I appreciate that Marius took strong opinions about his work, was always willing to ask questions and learn, and ensured that he spend time in the most efficient way possible. He's also genuinely a nice person which made it easy to approach him for questions or to collaborate."
+    },
+    {
+      "name": "Benjamin Haws, PMP",
+      "jobTitle": "Founder & Managing Director",
+      "photo": "ben.jpeg",
+      "linkedin": "https://www.linkedin.com/in/benh937/",
+      "text": "I worked as Project Manager with Marius on various projects in the clinical software space. He is eager to learn and grow. He is great at understanding his prioritization and working efficiently and asking the questions needing answers to be successful. He takes self-ownership of the tasks at hand and immediately communicates any blockers/issues. All in all working with Marius was a pleasure. I hope are paths cross again in the future."
+    }
+  ],
   "skills": [
     "Java",
     "Spring",
