@@ -70,21 +70,20 @@ const App = () => {
       <header style={styles.header}>
         <h1 style={styles.title}>{cvData.name}</h1>
         <p style={styles.subTitle}>{cvData.role}</p>
+        <p style={styles.subTitle}>{cvData.location}</p>
       </header>
+      <section style={styles.section}>
+        <h2 style={styles.sectionTitle}>Skills</h2>
+        <ul style={styles.skillList}>
+          {cvData.skills.map(skill => (
+            <li style={styles.skill} key={skill}>{skill}</li>
+          ))}
+        </ul>
+      </section>
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Contact</h2>
         <p>Email: <a style={styles.link} href={`mailto:${cvData.contact.email}`}>{cvData.contact.email}</a></p>
         <p>Website: <a style={styles.link} href={cvData.contact.website} target="_blank">{cvData.contact.website}</a></p>
-      </section>
-      <section style={styles.section}>
-        <h2 style={styles.sectionTitle}>Education</h2>
-        <ul style={styles.list}>
-          {cvData.education.map((edu) => (
-            <li style={styles.listItem} key={edu.institution}>
-              <strong>{edu.degree}</strong> at {edu.institution}, {edu.year}
-            </li>
-          ))}
-        </ul>
       </section>
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Experience</h2>
@@ -100,10 +99,12 @@ const App = () => {
         </ul>
       </section>
       <section style={styles.section}>
-        <h2 style={styles.sectionTitle}>Skills</h2>
-        <ul style={styles.skillList}>
-          {cvData.skills.map(skill => (
-            <li style={styles.skill} key={skill}>{skill}</li>
+        <h2 style={styles.sectionTitle}>Education</h2>
+        <ul style={styles.list}>
+          {cvData.education.map((edu) => (
+            <li style={styles.listItem} key={edu.institution}>
+              <strong>{edu.degree}</strong> at {edu.institution}, {edu.year}
+            </li>
           ))}
         </ul>
       </section>
