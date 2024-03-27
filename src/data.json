@@ -1,0 +1,25 @@
+{
+  "name": "Marius Olariu",
+  "role": "Software Team Leader",
+  "contact": {
+    "email": "marius.lucian.olariu@gmail.com",
+    "website": "https://www.marius-olariu.net"
+  },
+  "education": [
+    {
+      "degree": "B.Sc. Computer and Software Engineering",
+      "institution": "Polytehnic University, Timisoara, Romania",
+      "year": "2014 - 2018"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Team Leader",
+      "company": "Vodafone",
+      "years": "Feb 2023 - present",
+      "details": ["Developed XYZ", "Implemented ABC"]
+    }
+  ],
+  "skills": ["JavaScript", "React", "Solid", "CSS"]
+}
+

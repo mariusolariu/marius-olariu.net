@@ -1,38 +1,66 @@
 .App {
+  /* Base styles */
   text-align: center;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box; /* Make sure padding doesn't affect the total width */
+  margin: 0 auto; /* Center the app in the viewport */
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Ensure the email and website links wrap to prevent overflow */
+.contact-info a {
+  display: block; /* stack links */
+  margin-bottom: 8px; /* add some space between stacked items */
+  white-space: nowrap; /* prevent the text from wrapping */
+  overflow-wrap: break-word; /* allow long URLs to break and wrap to the next line */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Media queries for larger screens */
+@media (min-width: 576px) {
+  .App {
+    /* Adjust padding on larger screens */
+    padding: 40px;
+  }
+
+  /* For larger screens, display email and website inline */
+  .contact-info a {
+    display: inline;
+    margin: 0 5px; /* space out inline items */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 768px) {
+  .App {
+    /* Larger padding for larger screens */
+    padding: 60px;
   }
 }
+
+@media (min-width: 992px) {
+  .App {
+    /* Maximum width to prevent the app from stretching too wide on very large screens */
+    max-width: 960px;
+  }
+}
+
+/* You might also want to style other elements within .App for responsiveness */
+.section-title {
+  font-size: 1.5rem; /* Adjust section title size for readability */
+}
+
+.list-item {
+  /* Add responsive styles for list items if necessary */
+}
+
+.skill {
+  /* Style the skill tags to be more responsive */
+  display: inline-block; /* Align skills horizontally */
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* More styles can be added as needed */
