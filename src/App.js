@@ -70,8 +70,27 @@ const App = () => {
       <header style={styles.header}>
         <h1 style={styles.title}>{cvData.name}</h1>
         <p style={styles.subTitle}>{cvData.role}</p>
-        <p style={styles.subTitle}>{cvData.location}</p>
+        <p style={styles.subTitle}>{cvData.philosophy}</p>
       </header>
+
+      {/* Summary */}
+      <section style={styles.section}>
+        <h2>Summary</h2>
+        <p>
+          Results driven Software Engineer with over 5 years of experience and a track record in developing sophisticated Web and Desktop applications. My diverse background includes developing software across various industries such as supply chain management, project management, AI, big pharmacology, and telecommunications. <br></br>
+          <br></br>
+
+          I am passionate about learning and thrive in environments that encourage growth and productivity. My professional career has allowed me to work with a wide range of technologies and a source of pride for me is the fact that I have been programming for over <strong>15+ years</strong>, namely since I was 14. <br></br><br></br>
+
+
+          My expertise lies in <strong>backend development</strong> but I am familiar with FE development and technologies like the base ones (HTML, CSS, JS) and popular frameworks (React, JQuery). 
+
+          <br></br>
+          My ideal role is one that fosters an environment of continuous learning and professional development.
+        </p>
+      </section>
+
+      {/* SKILLS */}
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Skills</h2>
         <ul style={styles.skillList}>
@@ -80,24 +99,43 @@ const App = () => {
           ))}
         </ul>
       </section>
+
+       {/* Values */}
+       <section style={styles.section}>
+        <h2 style={styles.sectionTitle}>Values</h2>
+        <ul style={styles.skillList}>
+          {cvData.values.map(value => (
+            <li style={styles.skill} key={value}>{value}</li>
+          ))}
+        </ul>
+      </section>
+
+      {/* CONTACT */}
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Contact</h2>
-        <p>Email: <a style={styles.link} href={`mailto:${cvData.contact.email}`}>{cvData.contact.email}</a></p>
+        <p>Linkedin: <a style={styles.link} href={cvData.contact.linkedin} target="_blank">{cvData.contact.linkedin}</a></p>
+        <p>Github: <a style={styles.link} href={cvData.contact.github} target="_blank">{cvData.contact.github}</a></p>
+        <p>Email: <a style={styles.link} href={`mailto:${cvData.contact.email}`}>marius.lucian.olariu@gmail.com</a></p>
+        <p>Location: <a style={styles.link} href={cvData.contact.location} target="_blank">London, NW10 </a></p>
         <p>Website: <a style={styles.link} href={cvData.contact.website} target="_blank">{cvData.contact.website}</a></p>
       </section>
-      <section style={styles.section}>
-        <h2 style={styles.sectionTitle}>Experience</h2>
+
+
+      
+
+       {/* Recommendations */}
+       <section style={styles.section}>
+        <h2 style={styles.sectionTitle}>Recommendations</h2>
         <ul style={styles.list}>
-          {cvData.experience.map((exp) => (
-            <li style={styles.listItem} key={exp.company}>
-              <strong>{exp.role}</strong> at {exp.company}, {exp.years}
-              <ul>
-                {exp.details.map((detail, index) => <li key={index}>{detail}</li>)}
-              </ul>
+          {cvData.education.map((edu) => (
+            <li style={styles.listItem} key={edu.institution}>
+              <strong>{edu.degree}</strong> at {edu.institution}, {edu.year}
             </li>
           ))}
         </ul>
       </section>
+
+      {/* Education */}
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Education</h2>
         <ul style={styles.list}>
@@ -108,6 +146,7 @@ const App = () => {
           ))}
         </ul>
       </section>
+
     </div>
   );
 };

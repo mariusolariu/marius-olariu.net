@@ -1,10 +1,13 @@
 {
   "name": "Marius Olariu",
-  "role": "Software Team Leader",
+  "role": "Software Engineer",
+  "philosophy": "Virtus junxit mors non separabit.",
   "contact": {
     "email": "marius.lucian.olariu@gmail.com",
-    "location": "London, NW10 7GL",
-    "website": "https://www.marius-olariu.net"
+    "location": "https://maps.app.goo.gl/oGVJc1S68M2jk2ex5",
+    "website": "marius-olariu.net",
+    "github": "https://github.com/mariusolariu",
+    "linkedin": "https://www.linkedin.com/in/mlo1994/"
   },
   "education": [
     {
@@ -15,12 +18,185 @@
   ],
   "experience": [
     {
-      "role": "Software Team Leader",
-      "company": "Vodafone",
-      "years": "Feb 2023 - present",
-      "details": ["Developed XYZ", "Implemented ABC"]
+      "company": {
+        "name": "Vodafone UK",
+        "period": "Feb 2023 - present",
+        "logo": "vodafone.png",
+        "location": "London, United Kingdom",
+        "website": "https://www.vodafone.co.uk"
+      },
+      "projects": [
+        {
+          "name": "vodafone.co.uk",
+          "logoHeight": 80,
+          "role": "Software Engineer",
+          "description": "To be completed as bullet points",
+          "stack": {
+            "me": [
+              "Java",
+              "Spring",
+              "AWS",
+              "JUnit",
+              "Maven",
+              "Git"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Zühlke Group",
+        "period": "Oct 2022 - Dec 2022",
+        "logo": "zuhlke.png",
+        "location": "London, United Kingdom",
+        "website": "https://www.zuehlke.com/en"
+      },
+      "projects": [
+        {
+          "name": "On bench",
+          "logoHeight": 80,
+          "role": "Senior Software Engineer",
+          "description": "Brief period at this consulting company due to a temporary lull in demand for Java Backend Software Engineers (inflation raising and recession was predicted).",
+          "stack": {
+            "me": [
+              "Java",
+              "Spring",
+              "AWS",
+              "JUnit",
+              "Maven",
+              "Git"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "IQVIA",
+        "period": "Feb 2022 - Oct 2022",
+        "logo": "iqvia.png",
+        "location": "London, United Kingdom",
+        "website": "https://www.iqvia.com/"
+      },
+      "projects": [
+        {
+          "name": "IQVIA",
+          "logoHeight": 80,
+          "role": "Full Stack Software Engineer",
+          "description": "To be completed as bullet points",
+          "stack": {
+            "me": [
+              "Java",
+              "AWS",
+              "JavaScript",
+              "Groovy",
+              "Grails",
+              "Maven",
+              "Git"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Diffblue",
+        "period": "August 2020 - Feb 2022",
+        "logo": "diffblue.png",
+        "location": "Oxford, United Kingdom",
+        "website": "https://diffblue.com"
+      },
+      "projects": [
+        {
+          "name": "Diffblue",
+          "logoHeight": 80,
+          "role": "Software Engineer",
+          "description": "In this role, I am writing software in Java in an Agile environment for Diffblue Cover, a tool powered by AI that automatically generates (unit) tests for Java code. I make a consistent commitment to growth by embracing continuous learning (i.e. each Sprint I study a topic relevant for my work) and by taking new responsibilities (e.g. lead stand-ups and Sprint Retrospectives). Last, but not least, I set up and maintain an online environment where the product can be tried, see diffblue.com/try-cover-browser.",
+          "stack": {
+            "me": [
+              "Java",
+              "Spring",
+              "JUnit",
+              "Maven",
+              "Git"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "New Verve Consulting",
+        "period": "August 2019 - August 2020",
+        "logo": "new_verve.png",
+        "location": "Glasgow, United Kingdom",
+        "website": "https://newverveconsulting.com"
+      },
+      "projects": [
+        {
+          "name": "Diffblue",
+          "logoHeight": 80,
+          "role": "Junior Fullstack Developer",
+          "description": "Played an important role in the development and launch of a cloud add-on for Jira. The add-on allows you to bring context to Jira tickets by linking them to customer data. I helped through pair-programming sessions one of my colleagues to transition from a Technical Consultant position to a Developer one. Managed my time between writing my MSc dissertation and the position successfully.",
+          "stack": {
+            "me": [
+              "JavaScript",
+              "React",
+              "Node",
+              "Jest",
+              "Git"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "SSI Schaefer",
+        "period": "August 2017 - August 2018",
+        "logo": "schaefer.png",
+        "location": "Timisoara, Romania",
+        "website": "https://ssi-schaefer.com"
+      },
+      "projects": [
+        {
+          "name": "SSI Schaefer",
+          "logoHeight": 80,
+          "role": "Junior Software Engineer",
+          "description": "Got exposed to the world of professional software development with Java as well as finishing my last year of BSc studies in Computer Science. I worked on the development of software for a vertical lift module (LOGIMAT) that allowed goods in a warehouse to be stored and managed efficiently. Managed my time successfully between the position and my last year of BSc studies.",
+          "stack": {
+            "me": [
+              "Java",
+              "SQL",
+              "JUnit",
+              "HQL",
+              "Git"
+            ]
+          }
+        }
+      ]
     }
   ],
-  "skills": ["JavaScript", "React", "Solid", "CSS"]
+  "recommendations": [],
+  "skills": [
+    "Java",
+    "Spring",
+    "AWS",
+    "React",
+    "JavaScript",
+    "GenAI",
+    "Git",
+    "Maven",
+    "HTML",
+    "CSS",
+    "C/C++"
+  ],
+  "values": [
+    "Faith",
+    "Integrity",
+    "Friendship",
+    "Respect",
+    "Service"
+  ]
 }
-
