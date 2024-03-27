@@ -121,7 +121,21 @@ const App = () => {
       </section>
 
 
-      
+      {/* EXPERIENCE */}
+      <section style={styles.section}>
+        <h2 style={styles.sectionTitle}>Experience</h2>
+        <ul style={styles.list}>
+          {cvData.experience.map((exp) => (
+            <li style={styles.listItem} key={exp.company.name}>
+              <strong>{exp.company.role}</strong> at {exp.company.name}, {exp.company.period}
+              <p>{exp.company.location}</p>
+               <hr></hr> 
+              {/* <strong>{exp.project.name}</strong> */}
+            
+            </li>
+          ))}
+        </ul>
+      </section>
 
        {/* Recommendations */}
        <section style={styles.section}>
