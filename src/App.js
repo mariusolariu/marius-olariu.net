@@ -74,7 +74,7 @@ const App = () => {
 
       {/* Summary */}
       <section style={styles.section}>
-        <h2>Summary</h2>
+        <h2 style={styles.sectionTitle}>Summary</h2>
         <p>
           Results driven Software Engineer with over 5 years of experience and a track record in developing sophisticated Web and Desktop applications. My diverse background includes developing software across various industries such as supply chain management, project management, AI, big pharmacology, and telecommunications. <br></br>
           <br></br>
