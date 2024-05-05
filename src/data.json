@@ -1,6 +1,6 @@
 {
   "name": "Marius Olariu",
-  "role": "Software Engineer",
+  "role": "Software Team Leader",
   "philosophy": "Virtus junxit mors non separabit.",
   "contact": {
     "email": "marius.lucian.olariu@gmail.com",
@@ -53,6 +53,32 @@
     {
       "company": {
         "name": "Vodafone UK",
+        "role": "Software Team Leader",
+        "period": "Apr 2023 - present",
+        "logo": "vodafone.png",
+        "location": "London, United Kingdom",
+        "website": "https://www.vodafone.co.uk"
+      },
+      "project": {
+        "name": "vodafone.co.uk",
+        "logoHeight": 80,
+        "role": "Software Team Leader",
+        "description": "As a Software Team Leader at Vodafone, I spearhead the development of our website's features, combining my deep passion for technology and continuous learning.  My leadership is characterized by fostering a collaborative environment, encouraging innovation, and maintaining open communication channels with both colleagues and stakeholders.    This approach not only enhances our team's efficiency but also ensures we consistently deliver high-quality solutions that meet our users' evolving needs.",
+        "stack": {
+          "me": [
+            "Leadership",
+            "Time management",
+            "Mentoring",
+            "Java",
+            "Spring",
+            "AWS"
+          ]
+        }
+      }
+    },
+    {
+      "company": {
+        "name": "Vodafone UK",
         "role": "Backend Software Engineer",
         "period": "Feb 2023 - present",
         "logo": "vodafone.png",
@@ -63,7 +89,7 @@
         "name": "vodafone.co.uk",
         "logoHeight": 80,
         "role": "Software Engineer",
-        "description": "To be completed as bullet points",
+        "description": "In my role as a Backend Software Engineer at Vodafone, I elevated the checkout experience on vodafone.co.uk to unparalleled smoothness, directly enhancing user satisfaction. My dedication to innovation and operational excellence, evidenced by surpassing 80% of my Objectives and Key Results (OKRs) and garnering outstanding peer feedback, propelled me to a leadership position. Additionally, my recognition as Top Talent—a distinction shared by only four individuals—underscores my commitment to pushing the boundaries of technology and teamwork",
         "stack": {
           "me": [
             "Java",
@@ -86,7 +112,7 @@
         "website": "https://www.zuehlke.com/en"
       },
       "projects": {
-        "name": "On bench",
+        "name": "Learning and waiting for a client",
         "logoHeight": 80,
         "role": "Senior Software Engineer",
         "description": "Brief period at this consulting company due to a temporary lull in demand for Java Backend Software Engineers (inflation raising and recession was predicted).",
@@ -112,10 +138,10 @@
         "website": "https://www.iqvia.com/"
       },
       "project": {
-        "name": "IQVIA",
+        "name": "Clinspark",
         "logoHeight": 80,
         "role": "Full Stack Software Engineer",
-        "description": "To be completed as bullet points",
+        "description": "As a Full Stack Developer, I was actively involved in the development of a robust eSource web application system, designed to facilitate the drug development process for leading pharmacology companies. My role encompassed both front-end and back-end development, ensuring a seamless user experience and robust functionality. Additionally, I played a key role in managing our AWS infrastructure to enhance scalability and reliability. This included troubleshooting and resolving production issues to maintain optimal performance and service uptime. I also collaborated closely with clients, Biomedical Engineers, and Project Managers to develop clear, actionable specifications for user stories. This role demanded a high level of technical proficiency and strong communication skills, as it was essential to effectively translate client needs into technical requirements and foster a collaborative environment.",
         "stack": {
           "me": [
             "Java",
@@ -139,10 +165,10 @@
         "website": "https://diffblue.com"
       },
       "project": {
-        "name": "Diffblue",
+        "name": "Diffblue Cover",
         "logoHeight": 80,
         "role": "Software Engineer",
-        "description": "In this role, I am writing software in Java in an Agile environment for Diffblue Cover, a tool powered by AI that automatically generates (unit) tests for Java code. I make a consistent commitment to growth by embracing continuous learning (i.e. each Sprint I study a topic relevant for my work) and by taking new responsibilities (e.g. lead stand-ups and Sprint Retrospectives). Last, but not least, I set up and maintain an online environment where the product can be tried, see diffblue.com/try-cover-browser.",
+        "description": "As a Java Developer, I specialized in software development for Diffblue Cover, an AI-driven tool that autonomously generates tests for Java applications, within an Agile framework. I consistently enhanced my technical and industry knowledge through dedicated learning initiatives every Sprint. In a leadership capacity, I directed daily stand-ups and Sprint Retrospectives, contributing to project management and team guidance. Additionally, I established and managed an online demo environment for Diffblue Cover, facilitating hands-on experiences for prospective clients and demonstrating both technical proficiency and proactivity.",
         "stack": {
           "me": [
             "Java",
@@ -164,10 +190,10 @@
         "website": "https://newverveconsulting.com"
       },
       "project": {
-        "name": "Diffblue",
+        "name": "Crumbs",
         "logoHeight": 80,
         "role": "Junior Fullstack Developer",
-        "description": "Played an important role in the development and launch of a cloud add-on for Jira. The add-on allows you to bring context to Jira tickets by linking them to customer data. I helped through pair-programming sessions one of my colleagues to transition from a Technical Consultant position to a Developer one. Managed my time between writing my MSc dissertation and the position successfully.",
+        "description": "I played a pivotal role in the development and successful launch of CRUMBS, a lightweight Customer Relationship Management (CRM) add-on for Jira, enhancing user engagement and functionality. I also mentored a colleague transitioning from Technical Consultant to Developer, guiding him through pair-programming, demonstrations, and knowledge transfer sessions, which enhanced team capabilities and individual growth. Additionally, I effectively balanced my responsibilities with completing my MSc dissertation, showcasing exceptional time management and multitasking skills.",
         "stack": {
           "me": [
             "JavaScript",
@@ -190,10 +216,10 @@
       },
       "projects": [
         {
-          "name": "SSI Schaefer",
+          "name": "LOGIMAT",
           "logoHeight": 80,
           "role": "Junior Software Engineer",
-          "description": "Got exposed to the world of professional software development with Java as well as finishing my last year of BSc studies in Computer Science. I worked on the development of software for a vertical lift module (LOGIMAT) that allowed goods in a warehouse to be stored and managed efficiently. Managed my time successfully between the position and my last year of BSc studies.",
+          "description": "I contributed to the development of a software for the vertical lift module (LOGIMAT), aimed at optimizing goods storage and management in a warehouse. This project utilized my skills in Java, SQL/HQL, JUnit, Maven, and Git. Alongside software development, I successfully managed my time between my final year of BSc studies in Computer Science and this job, demonstrating robust time management abilities. This dual commitment allowed me to gain practical experience in professional software development, further enriching my academic and technical proficiency.",
           "stack": {
             "me": [
               "Java",
