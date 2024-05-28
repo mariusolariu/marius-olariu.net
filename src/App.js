@@ -151,8 +151,8 @@ const App = () => {
         <ul style={styles.list}>
           {cvData.experience.map((exp) => (
             <li style={styles.listItem} key={exp.company.name}>
-              <strong>{exp.company.role}</strong> at {exp.company.name}, {exp.company.period}
-              <p>{exp.company.location}</p>
+              <strong>{exp.company.role}&nbsp;</strong> at &nbsp;{exp.company.name},&nbsp; {exp.company.period},
+              <p>&nbsp;{exp.company.location}</p>
                <hr></hr> 
               {/* <strong>{exp.project.name}</strong> */}
             
@@ -189,11 +189,15 @@ const App = () => {
         <h2 style={styles.sectionTitle}>Education</h2>
         <ul style={styles.list}>
           {cvData.education.map((edu) => (
-            <li style={styles.listItem} key={edu.institution}>
-              <strong>{edu.degree}</strong> at {edu.name}, {edu.period}
-              <br></br>{edu.location}
-              <hr></hr>
-            </li>
+            <div>
+                <li style={{...styles.listItem, display: 'block'}}key={edu.institution}>
+                    <strong>{edu.degree}</strong><br></br>
+                    {edu.name}<br/>
+                    {edu.period}<br/>
+                    {edu.location}<br/>
+                    <hr></hr>
+              </li>
+            </div>
           ))}
         </ul>
       </section>
