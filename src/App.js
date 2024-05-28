@@ -44,7 +44,6 @@ const styles = {
     marginBottom: '10px',
     display: 'flex',
     alignItems: 'center',
-    marginBottom: '20px',
   },
   skillList: {
     display: 'flex',
