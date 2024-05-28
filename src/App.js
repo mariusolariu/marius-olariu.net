@@ -41,7 +41,10 @@ const styles = {
     padding: '0'
   },
   listItem: {
-    marginBottom: '10px'
+    marginBottom: '10px',
+    display: 'flex',
+    alignItems: 'center',
+    marginBottom: '20px',
   },
   skillList: {
     display: 'flex',
@@ -60,10 +63,33 @@ const styles = {
   link: {
     color: '#1a0dab',
     textDecoration: 'none'
-  }
+  },
+  avatarContainer: {
+    marginRight: '15px',
+    flexShrink: 0, // Prevent shrinking
+  },
+  avatar: {
+    width: '50px',
+    height: '50px',
+    borderRadius: '50%',
+  },
 };
 
+      
+
 const App = () => {
+  const calculatePaddingBottom = () => {
+    const width = window.innerWidth;
+    return `${width * 0.01}px`; // 5% of the window's width
+  };
+
+  const avatarStyle = {
+    paddingBottom: calculatePaddingBottom(),
+    marginRight: "15px",
+    flexShrink: 0
+  }
+
+
   return (
     <div style={styles.container}>
       <header style={styles.header}>
@@ -142,13 +168,22 @@ const App = () => {
         <ul style={styles.list}>
           {cvData.recommendations.map((rec) => (
             <li style={styles.listItem} key={rec.name}>
-              <h3><a style={styles.link} href={rec.linkedin}>{rec.name}</a> </h3> {rec.jobTitle}
-              <p>{rec.text}</p>
-              <hr></hr>
+              <div style={styles.avatarContainer}>
+                {console.log(rec.photo)}
+                <img src={rec.photo} alt={`${rec.name}'s avatar`} style={avatarStyle} />
+              </div>
+              <div style={styles.textContainer}>
+                <h3>
+                  <a style={styles.link} href={rec.linkedin}>{rec.name}</a>
+                </h3>
+                <p>{rec.jobTitle}</p>
+                <p>{rec.text}</p>
+                <hr />
+              </div>
             </li>
           ))}
         </ul>
-      </section>
+       </section>
 
       {/* Education */}
       <section style={styles.section}>

@@ -11,6 +11,15 @@
   },
   "education": [
     {
+      "name": "University of Oxford",
+      "location": "Oxford, United Kingdom",
+      "period": "May 2024 - October 2024",
+      "degree": "Senior Leadership Executive Programme ",
+      "website": "https://www.sbs.ox.ac.uk/",
+      "logo": "uws_logo.png",
+      "link_to_degree": "https://www.sbs.ox.ac.uk/"
+    },
+    {
       "name": "University of the West of Scotland",
       "location": "Paisley, United Kingdom",
       "period": "2018-2020",
@@ -236,57 +245,57 @@
   "recommendations": [
     {
       "name": "Dumitru Radoiu, PhD",
-      "jobTitle": "Vice President Research & Development",
-      "photo": "uwe.jpeg",
-      "linkedin": "https://www.linkedin.com/in/uwe-rohloff-845692/",
-      "text": "Marius is a hard working development senior and always striving to learn and improve - himself as well as others! I had the pleasure being his superior some time ago and was quite happy to see him being always determined to learn more, share knowledge and go the extra mile in achieving great solutions."
-    },
+      "jobTitle": "Associate Professor",
+      "photo": "./images/people/radoiu.jpeg",
+      "linkedin": "https://www.linkedin.com/in/dumitruradoiu",
+      "text": "In my year mentoring Marius, I've witnessed his extraordinary rise from Mid-Level Engineer to Software Team Leader, forecasting his path to Head of Engineering. Marius combines deep technical expertise with a genuine passion for technology and an unwavering commitment to team success. Marius' leadership is characterized by a drive to uplift others, as demonstrated through his initiatives to enhance team skills and his generous sharing of knowledge via tech talks. Marius' ability to build rapport and direct approach to foster an environment of collaboration and growth sets him apart. Recognizing that leadership involves continuous learning and adaptation, Marius is keenly aware of the importance of structured support and training in his new role. I love talking to Marius. He is not just a brilliant engineer and leader; he's a visionary shaping his future with integrity and innovation."
+    },    
     {
       "name": "Uwe Rohloff",
       "jobTitle": "Vice President Research & Development",
-      "photo": "uwe.jpeg",
+      "photo": "./images/people/uwe.jpeg",
       "linkedin": "https://www.linkedin.com/in/uwe-rohloff-845692/",
       "text": "Marius is a hard working development senior and always striving to learn and improve - himself as well as others! I had the pleasure being his superior some time ago and was quite happy to see him being always determined to learn more, share knowledge and go the extra mile in achieving great solutions."
     },
     {
       "name": "Joel Allred",
       "jobTitle": "Software Engineering Manager",
-      "photo": "joel.jpeg",
+      "photo": "./images/people/joel.jpeg",
       "linkedin": "https://www.linkedin.com/in/joel-allred/",
       "text": "I have had the pleasure to have Marius on my team. He took ownership of the Katacoda front end for Diffblue Cover and made some excellent contributions to the core test generation Java engine. Marius is eager to learn and continuously looks for process and code quality improvements."
     },
     {
       "name": "Gabriel Boian",
       "jobTitle": "Software Team Leader",
-      "photo": "gabi.jpeg",
+      "photo": "./images/people/gabi.jpeg",
       "linkedin": "https://www.linkedin.com/in/gabriel-boian-aba85351/",
       "text": "I had the pleasure to work with Marius for almost a year while he was graduating the university and he was a Junior Developer in the team that I managed. I was impressed by Marius' ability to handle parallel tasks like completing the study workload and picking development in a complex and big framework used inside our product. He managed very well to solve tasks requiring back-end technologies like SQL but also front-end tasks requiring him to master the framework used for the UI development. He proved his capability to handle difficult problems. As a team member or leader, Marius earns my highest recommendation."
     },
     {
       "name": "Nigel Rochford",
       "jobTitle": "Founder & Managing Director",
-      "photo": "nigel.jpeg",
+      "photo": "./images/people/nigel.jpeg",
       "linkedin": "https://www.linkedin.com/in/nigelrochford/",
       "text": "Marius was a great asset to New Verve when he worked as a Junior Developer - we were sorry to see him leave. He played a key part in our evolving business strategy by helping our products team design, develop, and launch a Cloud product to a global marketplace for the very first time. This was no mean feat and I was impressed with his autonomy and willingness to adapt and learn. He also built a sold rapport with team mates throughout the journey. Best of luck Marius with the rest of your career!"
     },
     {
       "name": "Darran Gillan",
       "jobTitle": "Digital Inclusion Development Officer",
-      "photo": "darran.jpeg",
+      "photo": "./images/people/darran.jpeg",
       "linkedin": "https://www.linkedin.com/in/darran-gillan/",
       "text": "Marius developed a lone working app for Paisley YMCA youth work staff. This was all built from the ground up and Marius attention to detail and advice to the requirements identified from a mobile phone app was very insightful and helped transform our youth work operations to a paperless system saving our organisation time and money. Throughout this process Marius made all staff feel involved in the design and functionality of the app despite our lack of understanding in some areas his professional attitude and enthusiasm for our organisations aim that was reflected in this lone working app developed by Marius during his time at Paisley YMCA has made our organisation stand out in terms use of digital platforms to improve outcomes for young people within the youth work sector."
     },
     {
       "name": "Alex Quail",
       "jobTitle": "Software Product Owner",
-      "photo": "alex.jpeg",
+      "photo": "./images/people/alex.jpeg",
       "linkedin": "https://www.linkedin.com/in/alexquail/",
       "text": "It has been a pleasure working with Marius during his time at Foundry Health / IQVIA. He is an excellent communicator and hard worker. He helped to enhance our core product during a release cycle, where he implemented improvements towards existing features. He also suggested improvements to the product and our processes over time as he gained more understanding about our business and industry. As a Product Manager, I really appreciate his direct working style and willingness to gain a deep understanding of product/user needs from the perspective of a developer. He makes an effort to understand the 'why' and not only just the 'what'. Overall I appreciate that Marius took strong opinions about his work, was always willing to ask questions and learn, and ensured that he spend time in the most efficient way possible. He's also genuinely a nice person which made it easy to approach him for questions or to collaborate."
     },
     {
       "name": "Benjamin Haws, PMP",
-      "jobTitle": "Founder & Managing Director",
-      "photo": "ben.jpeg",
+      "jobTitle": "Benjamin Haws, PMP",
+      "photo": "./images/people/ben.jpeg",
       "linkedin": "https://www.linkedin.com/in/benh937/",
       "text": "I worked as Project Manager with Marius on various projects in the clinical software space. He is eager to learn and grow. He is great at understanding his prioritization and working efficiently and asking the questions needing answers to be successful. He takes self-ownership of the tasks at hand and immediately communicates any blockers/issues. All in all working with Marius was a pleasure. I hope are paths cross again in the future."
     }
